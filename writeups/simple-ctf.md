@@ -24,9 +24,9 @@ Rodei `nmap -sV 10.10.123.45` e encontrei:
 
 O site na porta 80 rodava **Apache**. Usei o Gobuster:
 
-\`\`\`bash
+```bash
 gobuster dir -u http://10.10.123.45 -w /usr/share/wordlists/dirb/common.txt
-\`\`\`
+```
 
 Achei o diretório `/simple/`.
 
@@ -34,9 +34,9 @@ Achei o diretório `/simple/`.
 
 O login era vulnerável a **SQL Injection**:
 
-\`\`\`sql
+```sql
 ' OR 1=1--
-\`\`\`
+```
 
 ## Flag
 
