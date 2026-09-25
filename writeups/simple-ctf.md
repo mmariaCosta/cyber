@@ -3,7 +3,7 @@ title: Simple CTF
 date: 2026-03-15
 platform: TryHackMe
 category: Web
-difficulty: easy
+difficulty: hard
 url: https://tryhackme.com/room/simplectf
 lang: pt
 tags: [web, sqli, linux]
